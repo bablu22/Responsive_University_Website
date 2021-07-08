@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <!-- ==== Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ====== Google Fonts ======= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- ====== CSS link ====== -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ===== REsponsive css link ====== -->
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- ========= Header Part ========= -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-link">
+                <i class="fas fa-times" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">course</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Worlds's Bigget University</h1>
+            <p>Making Website is now one of the esiest thing in the world. You just need to know HTML,CSS, <br>
+                JavaScpript and yoy are good to go</p>
+            <a href="" class="hero-btn">Visti Us To Know More</a>
+        </div>
+    </section>
+    <!-- ======== Courses Section =========== -->
+    <section class="course" id="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, suscipit!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente error placeat rerum, quae eos autem
+                    laboriosam ab voluptatum sequi non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+                    impedit id nam hic a doloribus, expedita exercitationem rem quis architecto.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente error placeat rerum, quae eos autem
+                    laboriosam ab voluptatum sequi non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+                    impedit id nam hic a doloribus, expedita exercitationem rem quis architecto.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Gradutation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente error placeat rerum, quae eos autem
+                    laboriosam ab voluptatum sequi non. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+                    impedit id nam hic a doloribus, expedita exercitationem rem quis architecto.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- =========== Campus area =========== -->
+
+    <section class="campus" id="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, suscipit!</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png" alt="">
+                <div class="layer">
+                    <h3>Newyork</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png" alt="">
+                <div class="layer">
+                    <h3>washington</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Facilities area ======== -->
+    <section class="facilities">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, suscipit!</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Worlds class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Illo, libero.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>Worlds class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Illo, libero.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Worlds class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, non. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Illo, libero.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ========== Testimonial area ======= -->
+    <secction class="testimonial">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, suscipit!</p>
+        <div class="row">
+
+            <div class="testi-col">
+                <img src="images/user1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sequi accusantium repudiandae
+                        voluptate velit, quaerat odio. Dignissimos, tenetur id. Quo.</p>
+                    <h3>John Dou</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="testi-col">
+                <img src="images/user2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sequi accusantium repudiandae
+                        voluptate velit, quaerat odio. Dignissimos, tenetur id. Quo.</p>
+                    <h3>John Dou</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+    </secction>
+    <!-- === Call to action area ===== -->
+    <section class="cta">
+        <h1>Eenroll our various courses <br> Anywhere from the World</h1>
+        <a href="#" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- ==== Footer ==== -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, maxime! <br>Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Accusantium, ratione.</p>
+
+        <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-skype"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

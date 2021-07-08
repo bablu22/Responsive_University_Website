@@ -1,0 +1,65 @@
+
+@media(max-width :700px){
+    .text-box h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .nav-links ul li{
+        display: block;
+        padding: 20px;
+    }
+    .nav-links ul li a{
+        font-size: 18px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: tomato;
+        height: 100vh;
+        width:200px;
+        top: 0;
+        right:-200px;
+        z-index: 2;
+        text-align: left;
+        transition:1s;
+        cursor: pointer;
+
+    }
+    .nav-links ul{
+        padding: 20px;
+    }
+    nav .fas{
+        display: block;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 20px;
+    }
+}
+
+/* Courses area */
+@media(max-width :700px){
+    .row{
+        flex-direction: column;
+    }
+}
+/* ===== Campus area ======= */
+@media(max-width :700px){
+.campus{
+    margin-top: 500px;
+}
+}
+/* ====== Testimonial area ===== */
+@media(max-width :700px){
+.testi-col img{
+    margin-left:0px;
+    margin-right: 15px;
+
+}
+}
+/* call to action area === */
+@media(max-width :700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
