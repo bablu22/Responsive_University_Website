@@ -44,11 +44,6 @@
     }
 }
 /* ===== Campus area ======= */
-@media(max-width :700px){
-.campus{
-    margin-top: 500px;
-}
-}
 /* ====== Testimonial area ===== */
 @media(max-width :700px){
 .testi-col img{
@@ -62,4 +57,13 @@
     .cta h1{
         font-size: 24px;
     }
+}
+
+/* ====== Blog page ===== */
+@media(max-width :700px){
+
+    .sub-header h1{
+        font-size: 24px;
+    }
+
 }

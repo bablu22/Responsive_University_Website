@@ -95,7 +95,7 @@ nav .fas{
     text-align: center;
     margin: auto;
     padding-top: 100px;
-    height: 100vh;
+    
 }
 h1{
     font-size: 40px;
@@ -275,4 +275,120 @@ p{
     font-size: 20px;
     margin-top: 10px;
     color: tomato;
+}
+
+
+/* ============================ About page CSS ======================= */
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.sub-header h1{
+    color: white;
+    margin-top: 60px;
+}
+
+/* about us area */
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+    text-transform: capitalize;
+}
+.about-col p{
+    padding: 20px 0 25px;
+}
+.red-btn{
+    border: 1px solid tomato;
+    color: tomato;
+}
+.red-btn:hover{
+    color: white;
+}
+
+
+
+/* Blog area ====== */
+.blog-area{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog-left{
+    flex-basis: 65%;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h2{
+    color: #222;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.blog-left p{
+    color: #999;
+    padding: 0;
+}
+
+.blog-right{
+    flex-basis: 32%;
+
+}
+.blog-right h3{
+    background-color: tomato;
+    padding: 7px 0;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.comment-box{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 50px 0;
+
+}
+.comment-box h3{
+    text-align: left;
+}
+.comment-form input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    resize: none;
+    border-radius: 5px;
+}
+.comment-form button{
+    margin: 20px 0;
 }
